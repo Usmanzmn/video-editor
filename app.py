@@ -11,11 +11,10 @@ APP_TITLE = "🎥 Urdu Bottom-Right Caption"
 FONT_DIR = Path(__file__).parent / "fonts"
 FONT_PATH = FONT_DIR / "NotoNastaliqUrdu-Regular.ttf"
 # Google Fonts (Apache 2.0) direct link to Noto Nastaliq Urdu
-   FONT_URL = (
+FONT_URL = (
     "https://github.com/notofonts/nastaliq-urdu/raw/main/fonts/ttf/NotoNastaliqUrdu-Regular.ttf"
 )
 
-)
 
 st.set_page_config(page_title="Urdu Caption", page_icon="🎥", layout="centered")
 st.title(APP_TITLE)
